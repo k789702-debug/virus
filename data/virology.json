@@ -9,7 +9,7 @@
       "總論 ‧ 病毒實驗室診斷",
       "總論 ‧ 抗病毒藥物與疫苗",
       "DNA病毒 ‧ 腺病毒科（Adenoviridae）",
-      "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "DNA病毒 ‧ 痘病毒科（Poxviridae）",
       "DNA病毒 ‧ 細小病毒科（Parvoviridae）",
       "DNA病毒 ‧ 乳突瘤／多瘤病毒科（Papilloma／Polyomaviridae）",
@@ -30,7 +30,7 @@
     ]
   },
   "flows": {
-    "DNA病毒 ‧ 疹病毒科（Herpesviridae）": [
+    "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）": [
       "**8 種人類疱疹病毒（HHV-1～8）**：α（HSV-1/2、VZV）→感覺神經節潛伏｜β（CMV、HHV-6/7）→細胞巨大化、生長慢｜γ（EBV、HHV-8）→淋巴增生／腫瘤",
       "**包涵體鑑別**：HSV／VZV＝**Cowdry A**（嗜酸性核內）；CMV＝**Owl's eye**（貓頭鷹眼）",
       "**抗病毒藥**：HSV／VZV→**acyclovir**；CMV→**ganciclovir**｜**疫苗**：8 種中僅 **VZV** 有"
@@ -38,10 +38,10 @@
   },
   "virology": [
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
-      "name": "疹病毒科總覽",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
+      "name": "疱疹病毒科總覽",
       "en": "Herpesviridae (overview)",
-      "zh": "疹（疱疹）病毒科總覽",
+      "zh": "疱疹病毒科總覽",
       "stars": 2,
       "genome": "**線狀雙股DNA（dsDNA）**、二十面體核殼、具**套膜**，基因體常帶 direct／inverted repeat；一律在**細胞核**內複製並可建立**潛伏感染**。共 **8 種人類疱疹病毒（HHV-1～8）**，分 α／β／γ 三亞科。",
       "transmission": "依成員而異：接觸（唾液、皮膚黏膜）、飛沫／空氣（VZV）、性行為、輸血、器官移植、垂直（母嬰）。",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "name": "HSV-1／HSV-2",
       "en": "Herpes simplex virus types 1 & 2",
       "zh": "單純疱疹病毒第一／二型",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "name": "VZV",
       "en": "Varicella-zoster virus (HHV-3)",
       "zh": "水痘帶狀疱疹病毒",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "name": "CMV",
       "en": "Human cytomegalovirus (HHV-5)",
       "zh": "巨細胞病毒",
@@ -126,20 +126,20 @@
       "disease": "免疫正常者多無症狀或單核球增多症；**先天性 CMV**（聽損、小頭）、免疫低下（移植、AIDS）之視網膜炎、肺炎、腸炎。",
       "lab": "感染細胞呈**巨大細胞（cytomegalic）＋Owl's eye（貓頭鷹眼）核內包涵體**；培養以**纖維母細胞**且**生長慢**（shell vial 加速）；成人 CMV disease 指標為**病毒培養＋血漿 CMV DNA viral load**（IgM 較不適當）。",
       "treatment": "**Ganciclovir（GCV）** 為首選；foscarnet、cidofovir 次之；acyclovir 對 CMV 效果差；尚無疫苗。",
-      "interpret": "成人 CMV disease 以**尿/血病毒培養**與**血漿 CMV DNA 定量**為指標；單以 CMV IgM 判定並不適當。",
+      "interpret": "成人 CMV disease 以**血液病毒培養**與**血漿 CMV DNA 定量**為指標；**尿液病毒培養（成人多為無症狀排放）**與單獨 CMV IgM 皆不適合作為成人 disease 指標。",
       "hot": [
         "**Owl's eye（貓頭鷹眼）核內包涵體＋巨大細胞**為 CMV 特徵",
         "CMV 培養用**纖維母細胞、生長慢**（shell vial 加速）；治療首選 **ganciclovir**",
-        "**最常見先天感染病原**；成人 disease 指標為培養＋DNA viral load，非 IgM"
+        "**最常見先天感染病原**；成人 disease 指標為**血液培養＋血漿 DNA viral load**（尿液培養、IgM 不適用）"
       ],
       "qa": [
         ["110年第一次 第57題", "CMV 為 HHV-5、屬 betaherpesvirus、可經性行為/輸血/哺乳傳染；選項 D『可利用上皮細胞培養且生長速度快』為錯誤敘述（CMV 在纖維母細胞培養且生長緩慢）"],
         ["109年第一次 第45題", "巨細胞病毒（CMV）感染常用治療為 ganciclovir（GCV）；acyclovir、AZT 等不適用（答案 B）"],
-        ["113年第二次 第53題", "成人 CMV disease 指標含尿/血病毒培養與血漿 CMV DNA viral load；選項 A『CMV IgM』最不適當（非成人 CMV disease 指標）"]
+        ["113年第二次 第53題", "成人 CMV disease 指標為血液病毒培養與血漿 CMV DNA viral load；選項 B『尿液病毒培養』最不適當（成人尿中 CMV 多為無症狀排放，非成人 disease 指標）"]
       ]
     },
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "name": "EBV",
       "en": "Epstein-Barr virus (HHV-4)",
       "zh": "EB 病毒",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "h1": "DNA病毒 ‧ 疱疹病毒科（Herpesviridae）",
       "name": "HHV-6／7／8",
       "en": "Human herpesviruses 6, 7 & 8",
       "zh": "人類疱疹病毒第六／七／八型",
@@ -682,9 +682,9 @@
       "qa": [
         ["109年第一次 第80題", "登革病毒傳播循環中的主要媒介為 Aedes aegypti（埃及斑蚊）（答案 B）"],
         ["109年第一次 第48題", "C6/36 細胞可分離登革病毒、28℃ 生長、可懸浮培養；選項 B『源自果蠅』為錯誤（源自白線斑蚊 Aedes albopictus）"],
-        ["110年第一次 第70題", "登革 IgG 陽性而 IgM 陰性表示過去感染過、可能為其他病毒交叉反應、需 2～4 週後複檢確認（答案 A 僅②③）"],
+        ["110年第一次 第70題", "登革 IgG 陽性、IgM 陰性表示②過去感染過、③可能為其他病毒交叉反應、④需 2～4 週後複檢確認效價（非①現在正感染）；答案 D 僅②③④"],
         ["113年第二次 第73題", "登革病毒由埃及斑蚊傳播、以 C6/36 培養、ADE 為重症原因；選項 B『複製時產生 26S mRNA』為錯誤（26S subgenomic mRNA 為披膜病毒/alphavirus 特徵）"],
-        ["113年第二次 第18題", "不經由埃及斑蚊傳播者為選項 A『西尼羅河熱』（由 Culex 家蚊傳播）；屈公病、茲卡、加州腦炎題意對照"],
+        ["113年第二次 第18題", "不經由埃及斑蚊（Aedes aegypti）傳播者為選項 D『加利福尼亞腦炎（California encephalitis）』（由樹洞型斑蚊 Aedes triseriatus 傳播）；屈公病、茲卡由埃及斑蚊傳播"],
         ["109年第一次 第79題", "Venezuelan equine encephalitis、CCHF、日本腦炎皆為節肢動物媒介病毒；選項 D『Lassa virus』不是節媒病毒（為 arenavirus、囓齒動物傳播）"]
       ]
     },
@@ -820,7 +820,7 @@
       "en": "Virus structure & classification",
       "zh": "病毒構造與分類總論",
       "stars": 2,
-      "principle": "病毒依**核酸（DNA／RNA）、單雙股、正負股、有無套膜、對稱性（二十面體／螺旋）、複製部位**分類。**有套膜病毒對 ether／脂溶劑敏感**（流感、疱疹、HIV、黃病毒）；**無套膜病毒對 ether 有抗性、較耐環境**（腸病毒、腺病毒、小RNA、B19、諾羅）。多數 DNA 病毒於**細胞核**複製（痘病毒例外於細胞質）；多數 RNA 病毒於**細胞質**複製（流感、反轉錄、副黏液以外之核內複製為例外）。",
+      "principle": "病毒依**核酸（DNA／RNA）、單雙股、正負股、有無套膜、對稱性（二十面體／螺旋）、複製部位**分類。**有套膜病毒對 ether／脂溶劑敏感**（流感、疱疹、HIV、黃病毒）；**無套膜病毒對 ether 有抗性、較耐環境**（腸病毒、腺病毒、小RNA、B19、諾羅）。多數 DNA 病毒於**細胞核**複製（痘病毒例外於細胞質）；多數 RNA 病毒於**細胞質**複製（**流感、反轉錄病毒為核內複製的例外**；副黏液病毒仍於細胞質複製）。",
       "interpret": "「對 ether 敏感／有抗性」是判斷有無套膜的經典題型；病毒與好發部位（如 CSF 可測 echovirus／HSV／腮腺炎）配對亦常考。",
       "pitfall": "**ether 敏感＝有套膜；ether 抗性＝無套膜**；human bocavirus 主要呼吸道／腸道感染，最不可能在腦脊髓液測到。",
       "hot": [
@@ -886,7 +886,7 @@
       ],
       "qa": [
         ["109年第一次 第52題", "利用 RNA polymerase 及 reverse transcriptase 的病毒分生診斷法為 transcription-based amplification（如 NASBA/TMA）（答案 D）"],
-        ["113年第二次 第42題", "TaqMan 與 molecular beacon 皆具報導基與猝滅基、可定量、後者為髮夾結構；選項 C『兩者活性皆會被 DNA 聚合酶的外切酶破壞』為錯誤（僅 TaqMan 被切、molecular beacon 不被切）"],
+        ["113年第二次 第42題", "TaqMan 與 molecular beacon 皆具報導基與猝滅基、可定量、後者為髮夾結構；選項 C『兩者活性皆會被 DNA 聚合酶的內切酶（endonuclease）破壞』為錯誤（molecular beacon 不被切，且 TaqMan 實為被 5'→3' 外切酶切）"],
         ["113年第二次 第46題", "等溫核酸擴增法之敘述，選項 A 最適當：NASBA 屬等溫擴增法（適合偵測 RNA 病毒）"],
         ["109年第一次 第43題", "臨床上常以核酸定量（viral load）檢測病毒量者為 cytomegalovirus、EB病毒、hepatitis B virus（答案 C ②③④）"],
         ["113年第一次 第56題", "分析病毒蛋白時，SDS 常與 2-mercaptoethanol 併用以破壞蛋白質結構後再電泳（答案 A）"]
