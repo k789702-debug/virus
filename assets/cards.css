@@ -104,8 +104,10 @@ tbody tr:nth-child(even){background:var(--panel)}
 .hot li{font-size:.92rem;margin:3px 0;color:var(--ink)}
 .hot li::marker{color:var(--hot);font-weight:700}
 
-/* ── 國考題引用 ── */
-table.qa{font-size:.84rem;margin-top:12px}
+/* ── 歷屆考題回顧（獨立區塊，不再套用 .hot 琥珀底色） ── */
+.qa-sec{margin-top:16px}
+.qa-sec .k{display:inline-block;font-weight:800;color:var(--ink-strong);font-size:.79rem;letter-spacing:.02em;margin-bottom:6px;padding-left:9px;border-left:3px solid var(--band)}
+table.qa{font-size:.84rem;margin-top:2px}
 table.qa th,table.qa td{border-color:var(--line-soft)}
 table.qa td.yr{font-family:var(--mono);white-space:nowrap;color:var(--brand-ink);font-weight:600;
   font-variant-numeric:tabular-nums;background:var(--panel)}

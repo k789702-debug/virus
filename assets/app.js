@@ -59,7 +59,8 @@
       '<div class="card-head"><span class="abbr">'+esc(d.name)+'</span><span class="en">'+esc(d.en)+'</span>'+
       '<span class="zh">'+esc(d.zh)+'</span><span class="stars">'+'★'.repeat(d.stars||0)+'</span><span class="arrow">▼</span></div>'+
       '<div class="card-body">'+fields+
-      '<div class="hot"><div class="k">⭐ 高頻考點</div><ol>'+hot+'</ol>'+
+      '<div class="hot"><div class="k">⭐ 高頻考點</div><ol>'+hot+'</ol></div>'+
+      '<div class="qa-sec"><div class="k">📖 歷屆考題回顧</div>'+
       '<table class="qa"><tbody>'+qa+'</tbody></table></div></div>';
     wireToggle(card.querySelector('.card-head'), card);
     return card;
