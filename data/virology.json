@@ -813,6 +813,143 @@
       "qa": [
         ["109年第一次 第70題", "欲檢驗諾羅病毒（norovirus）時，採取糞便檢體可得最佳結果（答案 B）"]
       ]
+    },
+    {
+      "h1": "總論 ‧ 病毒構造與分類",
+      "name": "病毒構造與分類總論",
+      "en": "Virus structure & classification",
+      "zh": "病毒構造與分類總論",
+      "stars": 2,
+      "principle": "病毒依**核酸（DNA／RNA）、單雙股、正負股、有無套膜、對稱性（二十面體／螺旋）、複製部位**分類。**有套膜病毒對 ether／脂溶劑敏感**（流感、疱疹、HIV、黃病毒）；**無套膜病毒對 ether 有抗性、較耐環境**（腸病毒、腺病毒、小RNA、B19、諾羅）。多數 DNA 病毒於**細胞核**複製（痘病毒例外於細胞質）；多數 RNA 病毒於**細胞質**複製（流感、反轉錄、副黏液以外之核內複製為例外）。",
+      "interpret": "「對 ether 敏感／有抗性」是判斷有無套膜的經典題型；病毒與好發部位（如 CSF 可測 echovirus／HSV／腮腺炎）配對亦常考。",
+      "pitfall": "**ether 敏感＝有套膜；ether 抗性＝無套膜**；human bocavirus 主要呼吸道／腸道感染，最不可能在腦脊髓液測到。",
+      "hot": [
+        "**有套膜→ether 敏感；無套膜→ether 抗性**",
+        "DNA 病毒多於細胞核複製（**痘病毒於細胞質**）；RNA 病毒多於細胞質（**流感、反轉錄在核內**）",
+        "分類軸：核酸／股數／極性／套膜／對稱／複製部位"
+      ],
+      "qa": [
+        ["109年第一次 第65題", "對 ether 處理有抗性者為腸病毒（enterovirus，無套膜）（答案 B）；流感、德國麻疹、麻疹皆有套膜而對 ether 敏感"],
+        ["109年第一次 第50題", "最不可能在腦脊髓液偵測到的是 human bocavirus（答案 D）；echovirus、HSV-1、rubella 較可能出現於 CSF"]
+      ]
+    },
+    {
+      "h1": "總論 ‧ 病毒實驗室診斷",
+      "name": "病毒培養與細胞病變",
+      "en": "Viral culture & CPE",
+      "zh": "病毒培養與細胞病變（CPE）",
+      "stars": 2,
+      "principle": "病毒須以**活細胞**培養：**細胞培養、雞胚胎、實驗動物**；**血瓊脂（blood agar）為細菌培養基，無法培養病毒**。判讀**細胞病變（CPE）**與**包涵體**：HSV／VZV＝Cowdry A、CMV＝Owl's eye、狂犬＝Negri body、痘病毒＝Guarnieri、腺病毒＝葡萄串（grape-like）、副黏液／RSV＝多核巨細胞（syncytia）。**shell vial**（離心接種）可加速培養（如 CMV、腺病毒）。",
+      "pitfall": "血瓊脂等細菌培養基**不能**培養病毒；shell vial 為加速病毒培養而非細菌。",
+      "hot": [
+        "病毒培養用細胞／雞胚胎／動物；**血瓊脂不能培養病毒**",
+        "包涵體：**Cowdry A（HSV/VZV）、Owl's eye（CMV）、Negri（狂犬）、Guarnieri（痘）**",
+        "**shell vial** 加速培養（CMV、腺病毒）；腺病毒 CPE 為葡萄串"
+      ],
+      "qa": [
+        ["113年第二次 第56題", "無法用來培養病毒的系統為血瓊脂（blood agar，屬細菌培養基）（答案 D）；活體動物、雞胚胎蛋、初代細胞培養皆可"],
+        ["110年第一次 第63題", "臨床病毒實驗室中可藉 shell vial 鑑別（培養）者為腺病毒（Adenovirus）（答案 C）；HBV、HDV、諾羅病毒難以此法培養"]
+      ]
+    },
+    {
+      "h1": "總論 ‧ 病毒實驗室診斷",
+      "name": "病毒血清學方法",
+      "en": "Viral serology methods",
+      "zh": "病毒血清學方法",
+      "stars": 2,
+      "principle": "偵測**抗體**的方法：補體固定（CF）、血球凝集抑制（HI）、中和試驗（neutralization）、西方墨點（WB，確認用、專一性高）、酵素免疫（EIA）／IgM。**血球吸附（hemadsorption）偵測的是受感染細胞上的病毒血球凝集素，非抗體**。**中和試驗前血清須 56℃ 30 分鐘去活補體**。EIA 測 IgM 時**類風濕因子（RF）會造成偽陽性**、高濃度 IgG 競爭可造成偽陰性。",
+      "pitfall": "hemadsorption／HA／HAdsorption 測的是**病毒**（非抗體）；WB 是**確認**試驗而非篩檢；中和試驗血清要先 56℃ 去補體。",
+      "hot": [
+        "測抗體：CF、HI、中和、WB、EIA；**hemadsorption 測病毒非抗體**",
+        "**中和試驗血清需 56℃/30 分去補體**（不可省）",
+        "**WB 為確認試驗**（專一性高）；IgM EIA 受 RF 干擾（偽陽性）"
+      ],
+      "qa": [
+        ["109年第一次 第47題", "不是用來檢測病毒抗體的方法為血球吸附試驗（hemadsorption test）（答案 B）；其偵測受感染細胞上的病毒，CF／HI／西方墨點則測抗體"],
+        ["109年第一次 第49題", "檢驗病毒的敘述中，選項 C『有套膜的病毒才能做 HI』為錯誤（能血球凝集者即可做 hemagglutination inhibition，不限有套膜，如腺病毒）"],
+        ["113年第二次 第49題", "定量病毒中和抗體試驗：可用陽性對照、算病毒斑減少、必要時用假病毒；選項 D『血清不應在 56℃處理 30 分鐘以免破壞抗體』最不適當（56℃/30 分是去補體的標準步驟）"],
+        ["113年第二次 第47題", "IgM EIA：可用血清/CSF、West Nile IgM 可長達 3 個月、高 IgG 可致偽陰性；選項 B『含 RF 會造成偽陰性』最不適當（RF 造成偽陽性）"]
+      ]
+    },
+    {
+      "h1": "總論 ‧ 病毒實驗室診斷",
+      "name": "病毒分子診斷",
+      "en": "Molecular diagnosis of viruses",
+      "zh": "病毒分子診斷",
+      "stars": 3,
+      "principle": "**RNA 病毒偵測需先反轉錄（RT-PCR）**、DNA 病毒不需。**探針**：TaqMan（水解探針，被 Taq 之 5'→3' 外切酶切斷而放螢光）；**molecular beacon（髮夾二級結構、不被切斷）**，兩者皆有報導基與猝滅基、可定量。**等溫核酸擴增**：NASBA（用反轉錄酶＋RNA polymerase 於恆溫擴增 RNA）、LAMP、SDA、TMA。**病毒量（viral load）**常用於 CMV、EBV、HBV、HCV、HIV。蛋白質電泳以 **SDS＋2-mercaptoethanol** 變性還原後進行。",
+      "pitfall": "TaqMan 會被切斷、**molecular beacon 不被切斷**；NASBA/TMA 需 RT＋RNA pol；RNA 病毒才需反轉錄。",
+      "hot": [
+        "**RNA 病毒需 RT-PCR**；DNA 病毒不需反轉錄",
+        "TaqMan（被切）vs **molecular beacon（髮夾、不被切）**；皆可定量",
+        "**NASBA＝RT＋RNA polymerase 等溫擴增**；病毒量用於 CMV/EBV/HBV/HCV/HIV"
+      ],
+      "qa": [
+        ["109年第一次 第52題", "利用 RNA polymerase 及 reverse transcriptase 的病毒分生診斷法為 transcription-based amplification（如 NASBA/TMA）（答案 D）"],
+        ["113年第二次 第42題", "TaqMan 與 molecular beacon 皆具報導基與猝滅基、可定量、後者為髮夾結構；選項 C『兩者活性皆會被 DNA 聚合酶的外切酶破壞』為錯誤（僅 TaqMan 被切、molecular beacon 不被切）"],
+        ["113年第二次 第46題", "等溫核酸擴增法之敘述，選項 A 最適當：NASBA 屬等溫擴增法（適合偵測 RNA 病毒）"],
+        ["109年第一次 第43題", "臨床上常以核酸定量（viral load）檢測病毒量者為 cytomegalovirus、EB病毒、hepatitis B virus（答案 C ②③④）"],
+        ["113年第一次 第56題", "分析病毒蛋白時，SDS 常與 2-mercaptoethanol 併用以破壞蛋白質結構後再電泳（答案 A）"]
+      ]
+    },
+    {
+      "h1": "總論 ‧ 抗病毒藥物與疫苗",
+      "name": "抗病毒藥物",
+      "en": "Antiviral drugs",
+      "zh": "抗病毒藥物",
+      "stars": 3,
+      "principle": "**核苷類似物**：acyclovir（需病毒 **thymidine kinase** 活化，治 HSV／VZV，**不治腺病毒**）、ganciclovir（CMV）、AZT／3TC（chain terminator）；**foscarnet（PFA）直接抑制病毒 polymerase、非 chain terminator、不需活化**；**蛋白酶抑制劑（如 ritonavir）不需磷酸化活化**；**NA 抑制劑**（oseltamivir／zanamivir，流感）；**脫殼抑制**（pleconaril 抑腸／鼻病毒、amantadine 抑流感 M2）；**干擾素**（IFN-α＋ribavirin 治 C 肝）。",
+      "pitfall": "acyclovir 需病毒 TK 活化且不治腺病毒；foscarnet 與蛋白酶抑制劑**不需**細胞酵素活化；chain terminator（GCV/3TC/AZT）≠ foscarnet（直接抑 pol）。",
+      "hot": [
+        "**acyclovir 需病毒 TK 活化**、治 HSV/VZV 不治腺病毒",
+        "**foscarnet 非 chain terminator**、直接抑 polymerase、不需活化",
+        "**pleconaril 抑制脫殼**（腸/鼻病毒）；oseltamivir 抑 NA（流感）"
+      ],
+      "qa": [
+        ["109年第一次 第46題", "acyclovir 需病毒 TK 活化、抑制病毒 polymerase、無法清除潛伏病毒；選項 A『可用來治療 HSV 及腺病毒』為錯誤（acyclovir 不治腺病毒）"],
+        ["113年第一次 第49題", "抗病毒藥 Pleconaril 的作用機轉為抑制病毒脫殼（答案 A）"],
+        ["113年第二次 第41題", "ganciclovir、lamivudine、zidovudine 皆以 chain termination 終止核酸複製；選項 C『foscarnet（PFA）』不是（直接抑制病毒 polymerase）"],
+        ["110年第一次 第56題", "不需經細胞酵素活化即可作用者為 ritonavir（蛋白酶抑制劑）（答案 B）；acyclovir、cidofovir、zidovudine 需磷酸化活化"],
+        ["113年第一次 第53題", "干擾素：Ampligen/Poly rI:rC 可誘生、IFN-α/β 抑制病毒蛋白合成、IFN-α 可治 papillomavirus；選項 C『IFN-α 與 Pleconaril 常併用治療 C 型肝炎』為錯誤（C 肝為 IFN-α＋ribavirin）"]
+      ]
+    },
+    {
+      "h1": "總論 ‧ 抗病毒藥物與疫苗",
+      "name": "疫苗類型",
+      "en": "Vaccine types",
+      "zh": "病毒疫苗類型",
+      "stars": 2,
+      "principle": "**活減毒（attenuated）**：MMR（麻疹/腮腺炎/德國麻疹）、OPV（沙賓）、水痘、輪狀病毒、黃熱、卡介苗；**去活化（inactivated）**：IPV（沙克）、A 型肝炎、狂犬、流感 IIV；**次單位／VLP**：B 型肝炎（重組 HBsAg）、HPV（L1）；**mRNA／載體**：新冠。部分病毒**同時有去活化與活減毒兩型疫苗**（小兒麻痺、流感）。",
+      "pitfall": "A 肝／狂犬／B 肝／HPV 皆**非**活減毒；輪狀、OPV、MMR、水痘、黃熱為活減毒；HBV／HPV 為 VLP。",
+      "hot": [
+        "活減毒：**MMR、OPV、水痘、輪狀、黃熱、卡介苗**",
+        "去活化：**IPV、A 肝、狂犬、流感 IIV**；次單位/VLP：**HBV、HPV**",
+        "**小兒麻痺與流感同時有去活化與減毒兩型**"
+      ],
+      "qa": [
+        ["113年第一次 第50題", "同時有 inactivated（去活化）與活性減毒兩型疫苗者為小兒麻痺病毒與流感病毒（答案 B ②③）"],
+        ["110年第一次 第51題", "利用 virus-like particle（VLP）設計的疫苗為 HBV 與 HPV（答案 B ②③）"]
+      ]
+    },
+    {
+      "h1": "其他 ‧ Prion 普利子",
+      "name": "Prion 普利子",
+      "en": "Prion",
+      "zh": "普利昂蛋白（傳染性蛋白質）",
+      "stars": 1,
+      "principle": "**不含核酸的傳染性蛋白質顆粒**。致病型 **PrPSc**（β-摺疊、易聚集、抗蛋白酶）由正常宿主蛋白 **PrPc**（α-螺旋、由第 20 對染色體之 PRNP 基因表現）錯誤摺疊而來；**具感染性者為 PrPSc（非 PrPc）**。**抗高溫、化學藥品、紫外線與輻射**，一般滅菌難以去活。",
+      "disease": "**傳染性海綿狀腦病（TSE）**：庫魯症（Kuru，食人習俗傳播）、庫賈氏病（CJD／變異型 vCJD）、牛海綿樣腦病（BSE，狂牛病）；經**食入**傳染，高溫烹煮無法去活。",
+      "pitfall": "與病毒最大差異：**prion 不含核酸**；PrPc 為正常蛋白、**PrPSc 才致病且具感染性**；一般高溫/UV/化學無法去活。",
+      "hot": [
+        "prion＝**無核酸的傳染性蛋白**；**PrPSc（非 PrPc）具感染性**",
+        "**抗高溫/化學/UV/輻射**，一般滅菌難去活",
+        "致 TSE：Kuru、CJD/vCJD、BSE（狂牛）；食入傳染、高溫烹煮無法避免"
+      ],
+      "qa": [
+        ["109年第一次 第59題", "致病性 prions 抗高溫、蛋白質錯誤摺疊、聚集造成神經元傷害；選項 D『其基因位於人類第 20 對染色體長臂』為錯誤（PRNP 位於第 20 對染色體短臂 20p）"],
+        ["110年第一次 第53題", "普利昂蛋白抗加熱/化學/UV、與 BSE 有關、為蛋白質性傳染因子；選項 A『PrPc 比 PrPsc 更具感染性』為錯誤（具感染性者為 PrPsc）"],
+        ["113年第二次 第57題", "庫魯症（Kuru）為 prion 所致之退化性人類傳染性海綿狀腦病（答案 B）；高溫烹煮無法避免傳播、傳染途徑與狂牛病類似"]
+      ]
     }
   ]
 }
