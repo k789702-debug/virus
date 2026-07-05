@@ -494,6 +494,31 @@
         ["113年第一次 第45題", "HIV viral load 可對 Group M 精確定量、允許 0.5 log 差異、低量時變異加大；選項 D『可當作區別 HIV-1 及 HIV-2 的方法』最不適當"],
         ["113年第一次 第54題", "Western blot 專一性高、用於確認 HIV 或 HCV 之 EIA 結果；選項 A『比 EIA 更常用來當篩檢試驗』為錯誤（WB 為確認試驗）"]
       ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 冠狀病毒科（Coronaviridae）",
+      "name": "冠狀病毒 Coronavirus",
+      "en": "Coronaviruses (SARS-CoV / MERS-CoV / SARS-CoV-2)",
+      "zh": "冠狀病毒",
+      "stars": 3,
+      "genome": "**具最長基因體的線狀單股正鏈RNA（+ssRNA，約 30 kb）**、具**套膜**、螺旋核殼；結構蛋白 **S（spike，結合細胞受體）／M（matrix）／E／N（nucleocapsid，結合並穩定 RNA 基因組）**；於**粗糙內質網**組裝，藉**巢式 subgenomic mRNAs（多條 mRNA）**表達個別蛋白。",
+      "transmission": "飛沫、接觸、空氣；**人畜共通**（蝙蝠等為天然宿主庫）。",
+      "disease": "多數如普通感冒（common cold）；SARS、MERS、COVID-19 可致重症肺炎。**SARS-CoV-2 以 ACE2 為受體，MERS-CoV 以 DPP4 為受體**（並非皆用 ACE2）。",
+      "lab": "RNA 病毒，偵測**須先反轉錄（RT-PCR）**；**SARS-CoV-2 最易造成 Vero E6 細胞病變**；依病毒選擇適當生物安全等級。",
+      "treatment": "抗病毒藥（remdesivir、nirmatrelvir/ritonavir）；疫苗（mRNA、蛋白次單位、腺病毒載體）。",
+      "hot": [
+        "冠狀病毒＝**最長 +ssRNA、套膜**；S 結合受體、**N 結合穩定核酸**（非 M）",
+        "**由數條 subgenomic mRNA 製造個別蛋白**；於粗糙內質網組裝",
+        "**SARS-CoV-2 用 ACE2、MERS 用 DPP4**；人畜共通、Vero E6 培養"
+      ],
+      "qa": [
+        ["109年第一次 第72題", "冠狀病毒具套膜、可感染上呼吸道或胃腸道、SARS-CoV 屬冠狀病毒；選項 D『人類是冠狀病毒的唯一宿主』為錯誤（人畜共通）"],
+        ["113年第二次 第71題", "冠狀病毒最符合者為選項 C：正向 RNA 基因體、由數條 mRNA（subgenomic mRNA）製造個別蛋白"],
+        ["113年第二次 第67題", "冠狀病毒具套膜、正向 RNA、S 結合受體；選項 C『結構蛋白 M 結合在病毒核酸上以穩定核酸結構』最不適當（結合並穩定核酸者為 N 蛋白）"],
+        ["113年第二次 第76題", "冠狀病毒具最長線狀正股 RNA、於粗糙內質網組裝、多類似普通感冒；選項 D『感染人類的病毒都以 ACE2 為受體』為錯誤（MERS-CoV 用 DPP4）"],
+        ["113年第一次 第55題", "SARS coronavirus-2 最容易造成 Vero E6 細胞病變（答案 D）"],
+        ["109年第一次 第51題", "coronavirus 為 RNA 病毒，其基因體必須藉由反轉錄聚合酶連鎖反應（RT-PCR）才得以偵測（答案 A）"]
+      ]
     }
   ]
 }
