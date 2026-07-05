@@ -708,6 +708,111 @@
         ["110年第一次 第74題", "德國麻疹病毒（Rubella virus）屬於 Togaviridae（答案 B）"],
         ["113年第一次 第73題", "披膜病毒科與黃病毒科皆為套膜 +ssRNA、皆含 arbovirus；選項 B『兩科 RNA 之 5' 端有 cap 且結構基因也皆在 5' 端』為錯誤（披膜病毒結構基因在 3' 端、由 26S mRNA 表現）"]
       ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 布尼亞病毒目（Bunyavirales）",
+      "name": "布尼亞病毒 Bunyavirales",
+      "en": "Bunyavirales (Hantavirus / SFTS / CCHF)",
+      "zh": "布尼亞病毒（漢他／SFTS／CCHF）",
+      "stars": 2,
+      "genome": "**單股負鏈RNA（−ssRNA）、分節（L／M／S 三段）**、具**套膜**、螺旋核殼；**無 3' poly-A 尾**（末端互補形成 panhandle）。含漢他、SFTS、CCHF、California／La Crosse、Rift Valley 等。",
+      "transmission": "多為節肢動物媒介：**蜱（tick）**傳 SFTS 與 CCHF、**蚊**傳 California／La Crosse／Bunyamwera；**漢他病毒為例外，經囓齒動物排泄物氣膠傳播、非蟲媒**。",
+      "disease": "漢他（腎症候群出血熱／肺症候群）、SFTS（發熱伴血小板低下）、CCHF（出血熱）。",
+      "lab": "血清學、RT-PCR；高危病毒需高生物安全等級。",
+      "treatment": "支持療法（部分用 ribavirin）；多無廣泛疫苗。",
+      "hot": [
+        "布尼亞＝**分節 −ssRNA、無 3' poly-A（panhandle）**",
+        "**SFTS／CCHF 由蜱傳播**（非蚊）；漢他由囓齒動物、非蟲媒",
+        "多不直接人傳人，分布與節肢媒介一致"
+      ],
+      "qa": [
+        ["113年第二次 第70題", "選項 A『hantavirus（漢他病毒）』不是經由蚊蟲媒介（經囓齒動物傳播）；Bunyamwera、Chikungunya、日本腦炎皆蚊媒"],
+        ["113年第二次 第75題", "SFTS 由蜱傳播致血小板低下、California/La Crosse 由蚊傳播；選項 B『克里米亞—剛果出血熱（CCHF）主要由蚊子傳播』為錯誤（CCHF 由蜱傳播）"],
+        ["113年第一次 第74題", "基因體不具 3' poly-A 尾端結構者為 Bunyavirus（答案 D）；Retrovirus、Coronavirus、Togavirus 具 poly-A"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 絲狀病毒科（Filoviridae）",
+      "name": "絲狀病毒 Marburg／Ebola",
+      "en": "Filoviridae (Marburg / Ebola)",
+      "zh": "絲狀病毒（馬堡／伊波拉）",
+      "stars": 1,
+      "genome": "**單股負鏈RNA（−ssRNA）**、具**套膜**、**絲狀（filamentous）**外形；含**馬堡（Marburg）**與**伊波拉（Ebola）**病毒。",
+      "transmission": "接觸感染者體液（可人傳人），天然宿主與蝙蝠相關。",
+      "disease": "**病毒性出血熱**，致死率高。",
+      "lab": "**須於第四級生物安全實驗室（BSL-4）操作**；RT-PCR、抗原檢測。",
+      "treatment": "支持療法；伊波拉已有單株抗體療法與疫苗。",
+      "hot": [
+        "絲狀病毒（Marburg／Ebola）＝**絲狀 −ssRNA、套膜**、致出血熱",
+        "**培養須 BSL-4**（第四級生物安全）",
+        "接觸體液可人傳人；伊波拉已有疫苗"
+      ],
+      "qa": [
+        ["113年第一次 第71題", "屬於絲狀病毒科（Filoviridae）者為 Marburg virus（答案 B）"],
+        ["113年第一次 第76題", "須於第四級生物安全實驗室（BSL-4）培養者為馬堡病毒（Marburg virus）（答案 B）；H5N1、輪狀、偏肺病毒等級較低"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 桿狀病毒科（Rhabdoviridae／狂犬）",
+      "name": "狂犬病毒 Rabies",
+      "en": "Rabies virus (Rhabdoviridae)",
+      "zh": "狂犬病毒",
+      "stars": 2,
+      "genome": "**單股負鏈RNA（−ssRNA）**、具**套膜**、**子彈形（bullet-shaped）**，屬桿狀病毒科（Lyssavirus）。",
+      "transmission": "**動物咬傷（唾液）**，病毒沿周邊神經**逆行**至中樞神經，並可散播至唾液腺等腺體。",
+      "disease": "**狂犬病**：前驅期無明顯免疫反應與症狀，後期**恐水症（hydrophobia）**、腦炎，發病後幾乎致命。",
+      "lab": "感染神經細胞（海馬迴）見**Negri body（內基氏小體，細胞質嗜酸性包涵體）**；DFA、可用 PCR 於動物唾液偵測。",
+      "treatment": "**暴露後預防（PEP）**：去活化疫苗＋狂犬病免疫球蛋白；發病後無有效治療。",
+      "hot": [
+        "**Negri body（內基氏小體）**為狂犬病特徵（細胞質包涵體）",
+        "沿神經逆行至 CNS 並**散播至唾液腺**；可致恐水症",
+        "狂犬疫苗為**去活化（非減毒）**；咬傷後 PEP 為關鍵"
+      ],
+      "qa": [
+        ["109年第一次 第71題", "Negri body（內基氏小體）之出現是狂犬病毒（rabies virus）的特性（答案 B）"],
+        ["113年第二次 第77題", "狂犬病毒前驅期無明顯免疫反應、可用 PCR 於唾液偵測、可致恐水症；選項 D『病毒主要在中樞神經大量複製，不會散播到其它器官或腺體』為錯誤（會散播至唾液腺等）"],
+        ["113年第一次 第38題", "麻疹、輪狀病毒、卡介苗屬減毒疫苗；選項 D『狂犬病（rabies）』疫苗不是減毒疫苗（為去活化）"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 呼腸孤病毒科（Reoviridae）",
+      "name": "輪狀病毒 Rotavirus",
+      "en": "Rotavirus (Reoviridae)",
+      "zh": "輪狀病毒",
+      "stars": 2,
+      "genome": "**雙股RNA（dsRNA）、分節（11 段）**、**無套膜**、雙層二十面體殼（車輪狀外形），屬呼腸孤病毒科。",
+      "transmission": "**糞口傳播**，高傳染力。",
+      "disease": "**嬰幼兒急性腹瀉／腸胃炎**最常見病原，可致脫水。",
+      "lab": "糞便抗原（EIA）、RT-PCR、電子顯微鏡見車輪狀顆粒。",
+      "treatment": "支持補液；**有口服活減毒疫苗**（如 Rotarix、RotaTeq）。",
+      "hot": [
+        "輪狀病毒＝**分節 dsRNA、無套膜**、車輪狀；呼腸孤病毒科",
+        "嬰幼兒**腹瀉／腸胃炎**最常見病原",
+        "**有口服活減毒疫苗**"
+      ],
+      "qa": [
+        ["110年第一次 第34題", "麻疹、卡介苗（肺結核）、輪狀病毒疫苗皆為減毒疫苗；選項 D『小兒麻痺沙克疫苗（IPV）』不屬減毒疫苗（為去活化）— 說明輪狀病毒為活減毒疫苗"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 其他（Astrovirus／Calicivirus 等）",
+      "name": "諾羅病毒 Norovirus",
+      "en": "Norovirus (Caliciviridae) / Astrovirus",
+      "zh": "諾羅病毒（杯狀病毒）",
+      "stars": 2,
+      "genome": "**單股正鏈RNA（+ssRNA）**、**無套膜**、二十面體，屬杯狀病毒科（Caliciviridae）；星狀病毒（Astrovirus）性質類似。",
+      "transmission": "**糞口**、汙染食物／水／貝類、人際接觸；極高傳染力，群聚（郵輪、餐飲）常見。",
+      "disease": "**病毒性腸胃炎**（噁心、嘔吐、水瀉），各年齡層皆可，冬季流行。",
+      "lab": "以**糞便**檢體行 **RT-PCR**（諾羅難以細胞培養）為最佳。",
+      "treatment": "支持補液；目前無疫苗。",
+      "hot": [
+        "諾羅病毒＝**無套膜 +ssRNA、杯狀病毒科**、難培養",
+        "為病毒性腸胃炎與群聚感染常見病原",
+        "**最佳檢體為糞便**（RT-PCR）"
+      ],
+      "qa": [
+        ["109年第一次 第70題", "欲檢驗諾羅病毒（norovirus）時，採取糞便檢體可得最佳結果（答案 B）"]
+      ]
     }
   ]
 }
