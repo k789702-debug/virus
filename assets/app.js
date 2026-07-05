@@ -54,7 +54,7 @@
       strField('⚠️ 陷阱／易混', d.pitfall)+
       cmpTable(d.compare);
     const hot=(d.hot||[]).map(h=>'<li>'+md(h)+'</li>').join('');
-    const qa=(d.qa||[]).map(q=>'<tr><td class="yr">'+esc(q[0])+'</td><td>'+esc(q[1])+'</td></tr>').join('');
+    const qa=(d.qa||[]).map(q=>'<tr><td class="yr">'+esc(q[0])+'</td><td>'+md(q[1])+'</td></tr>').join('');
     card.innerHTML=
       '<div class="card-head"><span class="abbr">'+esc(d.name)+'</span><span class="en">'+esc(d.en)+'</span>'+
       '<span class="zh">'+esc(d.zh)+'</span><span class="stars">'+'★'.repeat(d.stars||0)+'</span><span class="arrow">▼</span></div>'+
