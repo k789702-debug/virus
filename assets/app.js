@@ -65,6 +65,15 @@
     return card;
   }
 
+  // 依群名前綴判定基因體型色帶（cards.css 以 [data-band] 上色）
+  function bandOf(h1){
+    if(/^總論/.test(h1)) return 'general';
+    if(/^DNA病毒/.test(h1)) return 'dna';
+    if(/^肝炎病毒/.test(h1)) return 'hepatitis';
+    if(/^RNA病毒/.test(h1)) return 'rna';
+    return 'other';
+  }
+
   function render(){
     $('#sub').textContent='科目：'+DATA.meta.subject+'｜共 '+DATA.virology.length+' 張病毒卡';
     const wrap=$('#cards'); wrap.innerHTML='';
@@ -74,7 +83,7 @@
     const h1order=[...groups.filter(g=>seen.includes(g)), ...seen.filter(g=>!groups.includes(g))];
     h1order.forEach(h1=>{
       const g=document.createElement('section');
-      g.className='group'; g.dataset.group=h1;
+      g.className='group'; g.dataset.group=h1; g.dataset.band=bandOf(h1);
       const flow=(DATA.flows&&DATA.flows[h1]||[]).map(l=>'<div class="ln">'+md(l)+'</div>').join('');
       g.innerHTML='<div class="group-head"><span class="arrow">▼</span><span>'+esc(h1)+'</span></div>'+
         '<div class="group-body">'+(flow?'<div class="flow"><h3>🧭 重點整理</h3>'+flow+'</div>':'')+'</div>';
