@@ -1,9 +1,9 @@
 {
   "meta": {
     "subject": "臨床血清免疫學與臨床病毒學（病毒部分）",
-    "version": "0.1.0",
-    "updated": "2026-07-04",
-    "source": "考選部 醫事檢驗師國考「臨床血清免疫學與臨床病毒學」歷屆試題（moex-exam）",
+    "version": "0.2.0",
+    "updated": "2026-07-05",
+    "source": "考選部 醫事檢驗師國考「臨床血清免疫學與臨床病毒學」歷屆試題（moex-exam；可查年度 109第一次、110第一次、113第一次、113第二次）",
     "groups": [
       "總論 ‧ 病毒構造與分類",
       "總論 ‧ 病毒實驗室診斷",
@@ -29,8 +29,41 @@
       "其他 ‧ Prion 普利子"
     ]
   },
-  "flows": {},
+  "flows": {
+    "DNA病毒 ‧ 疹病毒科（Herpesviridae）": [
+      "**8 種人類疱疹病毒（HHV-1～8）**：α（HSV-1/2、VZV）→感覺神經節潛伏｜β（CMV、HHV-6/7）→細胞巨大化、生長慢｜γ（EBV、HHV-8）→淋巴增生／腫瘤",
+      "**包涵體鑑別**：HSV／VZV＝**Cowdry A**（嗜酸性核內）；CMV＝**Owl's eye**（貓頭鷹眼）",
+      "**抗病毒藥**：HSV／VZV→**acyclovir**；CMV→**ganciclovir**｜**疫苗**：8 種中僅 **VZV** 有"
+    ]
+  },
   "virology": [
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "疹病毒科總覽",
+      "en": "Herpesviridae (overview)",
+      "zh": "疹（疱疹）病毒科總覽",
+      "stars": 2,
+      "genome": "**線狀雙股DNA（dsDNA）**、二十面體核殼、具**套膜**，基因體常帶 direct／inverted repeat；一律在**細胞核**內複製並可建立**潛伏感染**。共 **8 種人類疱疹病毒（HHV-1～8）**，分 α／β／γ 三亞科。",
+      "transmission": "依成員而異：接觸（唾液、皮膚黏膜）、飛沫／空氣（VZV）、性行為、輸血、器官移植、垂直（母嬰）。",
+      "disease": "α：HSV-1/2 口唇/生殖器疱疹、VZV 水痘與帶狀疱疹；β：CMV 先天感染/免疫低下症、HHV-6 嬰兒玫瑰疹；γ：EBV 傳染性單核球增多症/鼻咽癌/Burkitt 淋巴瘤、HHV-8 Kaposi 肉瘤。",
+      "lab": "細胞學看**核內包涵體**（HSV/VZV 為 Cowdry A、CMV 為 Owl's eye）與多核巨細胞；培養＋shell vial；血清學與 **PCR／病毒量**（CMV、EBV 臨床常用核酸定量）。",
+      "treatment": "**acyclovir 類**治 HSV／VZV、**ganciclovir** 治 CMV；**8 種疱疹病毒中僅 VZV 有疫苗**（水痘與帶狀疱疹疫苗），HSV／EBV／CMV 尚無疫苗。",
+      "compare": [
+        ["亞科", "代表病毒", "潛伏／特徵"],
+        ["α Alphaherpesvirinae", "HSV-1/2、VZV", "感覺神經節潛伏、快速溶解細胞"],
+        ["β Betaherpesvirinae", "CMV、HHV-6/7", "生長慢、細胞巨大化（cytomegalic）"],
+        ["γ Gammaherpesvirinae", "EBV、HHV-8", "淋巴細胞潛伏、與腫瘤相關"]
+      ],
+      "hot": [
+        "**8 種人類疱疹病毒**分 α／β／γ；α 神經節潛伏、β 細胞巨大化、γ 致腫瘤",
+        "疱疹病毒皆為**套膜 dsDNA、核內複製、可潛伏**",
+        "**僅 VZV 有疫苗**；HSV、EBV、CMV 尚無疫苗"
+      ],
+      "qa": [
+        ["109年第一次 第64題", "疱疹病毒共通特性：具套膜與雙股DNA（A對）、基因帶 direct/inverted repeat（B對）、於細胞核複製（D對）；選項 C『HSV 已有疫苗預防感染』為錯誤敘述（HSV 尚無疫苗）"],
+        ["113年第一次 第58題", "α/β/γ 疱疹病毒中目前僅 VZV 有疫苗可臨床使用；HSV-1、EBV、CMV 皆無疫苗（答案 C VZV）"]
+      ]
+    },
     {
       "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
       "name": "HSV-1／HSV-2",
@@ -40,23 +73,114 @@
       "genome": "**線狀雙股DNA（dsDNA）**、二十面體核殼、具**套膜**；基因體帶 direct／inverted repeat 序列。屬 **α-herpesvirus**，在**細胞核**內複製，並於神經節（三叉／薦神經節）建立**潛伏感染**。",
       "transmission": "**接觸傳染**（唾液、皮膚黏膜、生殖道分泌物）；HSV-1 多口唇、HSV-2 多生殖器，部位可交叉。",
       "disease": "齒齦口腔炎、口唇疱疹、生殖器疱疹、疱疹性角膜結膜炎、新生兒疱疹；HSV-1 為散發性**病毒性腦炎**最常見病原（好侵犯顳葉）。",
-      "lab": "感染細胞出現**多核巨細胞**與 **Cowdry A 型核內包涵體**（Tzanck 抹片）；確診以 **PCR**（CSF 腦炎、水泡液）最敏感，亦可病毒培養／DFA。**注意：Owl's eye 貓頭鷹眼包涵體屬 CMV，非 HSV**。",
-      "treatment": "**Acyclovir**（需經病毒 **thymidine kinase** 磷酸化活化，抑制病毒 DNA polymerase）及其衍生物；**臨床尚無疫苗**。",
-      "pitfall": "①Owl's eye＝CMV，HSV＝Cowdry A／多核巨細胞。②acyclovir 需病毒 TK 活化，抗藥常源自 TK 突變。③「HSV 已有疫苗」為常見錯誤敘述。",
+      "lab": "感染細胞出現**多核巨細胞（syncytia）**與 **Cowdry A 型（嗜酸性）核內包涵體**（Tzanck 抹片）；確診以 **PCR**（CSF 腦炎、水泡液）最敏感，亦可病毒培養／DFA。**注意：Owl's eye 貓頭鷹眼包涵體屬 CMV，非 HSV**。",
+      "treatment": "**Acyclovir**（需經病毒 **thymidine kinase** 磷酸化活化，再抑制病毒 DNA polymerase）及其衍生物；HSV-1／HSV-2 治療藥物相同；**臨床尚無疫苗**。",
+      "pitfall": "①Owl's eye＝CMV，HSV＝Cowdry A（嗜酸性）／多核巨細胞。②acyclovir 需病毒 TK 活化，抗藥常源自 TK 突變。③「HSV 已有疫苗」為常見錯誤敘述。",
       "compare": [
         ["特徵", "HSV", "CMV"],
-        ["核內包涵體", "Cowdry A 型", "Owl's eye（貓頭鷹眼）"],
-        ["特徵細胞", "多核巨細胞（syncytia）", "巨大細胞＋核內外包涵體"],
+        ["核內包涵體", "Cowdry A 型（嗜酸性）", "Owl's eye（貓頭鷹眼）"],
+        ["特徵細胞", "多核巨細胞（syncytia）", "巨大細胞（cytomegalic）"],
         ["首選藥", "Acyclovir", "Ganciclovir"]
       ],
       "hot": [
         "**Cowdry A 型核內包涵體＋多核巨細胞**為 HSV 鏡下特徵（與 CMV 的 **Owl's eye** 區分）",
-        "**Acyclovir 需病毒 thymidine kinase 活化**，作用機轉為抑制病毒 DNA polymerase",
+        "**Acyclovir 需病毒 thymidine kinase 活化**，機轉為抑制病毒 DNA polymerase",
         "HSV **尚無疫苗**；HSV-1 為散發性病毒性腦炎最常見病原"
       ],
       "qa": [
         ["113年第一次 第68題", "單純疱疹病毒：主要接觸傳染、感染造成多核巨細胞、HSV-1/2 治療藥物相同；選項 C『感染細胞內出現 Owl's eye 包涵體』為錯誤敘述（Owl's eye 為 CMV）"],
-        ["113年第一次 第59題", "HSV-1 為 alphaherpesvirus、病毒 DNA polymerase 為抗病毒藥標的、可致口唇或生殖器疱疹；選項 D『已有減毒疫苗可供臨床使用』為錯誤敘述（HSV 尚無疫苗）"]
+        ["113年第一次 第60題", "HSV 的細胞病變包括多核、細胞融合（syncytia）、核內 Cowdry A 型包涵體；選項 D『嗜鹼性（basophilic）包涵體』非 HSV 病變（Cowdry A 為嗜酸性）"],
+        ["113年第一次 第59題", "HSV-1 為 alphaherpesvirus、病毒 DNA polymerase 為抗病毒藥標的、可致口唇或生殖器疱疹；選項 D『已有減毒疫苗可供臨床使用』為錯誤敘述（HSV 尚無疫苗）"],
+        ["113年第二次 第43題", "幼童非細菌性腦炎常見病原含 herpes simplex virus type 2、Coxsackievirus、Japanese encephalitis virus；最不可能為選項 D human papillomavirus（HPV 不致腦炎）"]
+      ]
+    },
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "VZV",
+      "en": "Varicella-zoster virus (HHV-3)",
+      "zh": "水痘帶狀疱疹病毒",
+      "stars": 3,
+      "genome": "**雙股DNA（dsDNA）**、具**套膜**，屬 **α-herpesvirus（HHV-3）**，核內複製，潛伏於**背根／腦神經節**。",
+      "transmission": "**空氣／飛沫**與接觸水泡液高度傳染（需戴口罩防護）；可經胎盤垂直感染。",
+      "disease": "初次感染為**水痘（varicella）**（全身向心性水泡疹）；潛伏再活化為**帶狀疱疹（zoster／皮節分布）**。孕婦感染可致**先天性水痘症候群**、新生兒重症。",
+      "lab": "水泡刮取 Tzanck 抹片見多核巨細胞與 Cowdry A 包涵體；PCR 為確診；與 HSV 需靠分子/血清區分。",
+      "treatment": "**Acyclovir／valacyclovir** 可用於治療 VZV；**有減毒活疫苗**（水痘疫苗、帶狀疱疹疫苗）可預防。",
+      "hot": [
+        "水痘＝初次感染、帶狀疱疹＝潛伏再活化（皮節分布）",
+        "**孕婦感染可致先天性水痘症候群**，須警覺",
+        "**Acyclovir 可治療 VZV**；VZV 有減毒疫苗"
+      ],
+      "qa": [
+        ["110年第一次 第49題", "水痘病毒（VZV）：空氣/飛沫傳播需戴口罩（B對）、感染後潛伏可復發為帶狀疱疹（D對）；選項 C『懷孕母親不須特別小心、不會影響胎兒』為錯誤敘述（可致先天性水痘症候群）"],
+        ["113年第一次 第44題", "VZV 屬 herpesvirus 且基因體為 DNA（A對）、孩童水痘成人帶狀疱疹（B對）、有減毒疫苗（D對）；選項 C『Acyclovir 不可用於治療 VZV』為錯誤敘述（acyclovir 可治 VZV）"]
+      ]
+    },
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "CMV",
+      "en": "Human cytomegalovirus (HHV-5)",
+      "zh": "巨細胞病毒",
+      "stars": 3,
+      "genome": "**雙股DNA（dsDNA）**、具**套膜**，屬 **β-herpesvirus（HHV-5）**；為人類疱疹病毒中**基因體最大**者，核內複製、生長緩慢。",
+      "transmission": "**性行為、輸血、器官移植、哺乳、垂直（母嬰）**等多途徑；為**最常見先天感染病原**。",
+      "disease": "免疫正常者多無症狀或單核球增多症；**先天性 CMV**（聽損、小頭）、免疫低下（移植、AIDS）之視網膜炎、肺炎、腸炎。",
+      "lab": "感染細胞呈**巨大細胞（cytomegalic）＋Owl's eye（貓頭鷹眼）核內包涵體**；培養以**纖維母細胞**且**生長慢**（shell vial 加速）；成人 CMV disease 指標為**病毒培養＋血漿 CMV DNA viral load**（IgM 較不適當）。",
+      "treatment": "**Ganciclovir（GCV）** 為首選；foscarnet、cidofovir 次之；acyclovir 對 CMV 效果差；尚無疫苗。",
+      "interpret": "成人 CMV disease 以**尿/血病毒培養**與**血漿 CMV DNA 定量**為指標；單以 CMV IgM 判定並不適當。",
+      "hot": [
+        "**Owl's eye（貓頭鷹眼）核內包涵體＋巨大細胞**為 CMV 特徵",
+        "CMV 培養用**纖維母細胞、生長慢**（shell vial 加速）；治療首選 **ganciclovir**",
+        "**最常見先天感染病原**；成人 disease 指標為培養＋DNA viral load，非 IgM"
+      ],
+      "qa": [
+        ["110年第一次 第57題", "CMV 為 HHV-5、屬 betaherpesvirus、可經性行為/輸血/哺乳傳染；選項 D『可利用上皮細胞培養且生長速度快』為錯誤敘述（CMV 在纖維母細胞培養且生長緩慢）"],
+        ["109年第一次 第45題", "巨細胞病毒（CMV）感染常用治療為 ganciclovir（GCV）；acyclovir、AZT 等不適用（答案 B）"],
+        ["113年第二次 第53題", "成人 CMV disease 指標含尿/血病毒培養與血漿 CMV DNA viral load；選項 A『CMV IgM』最不適當（非成人 CMV disease 指標）"]
+      ]
+    },
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "EBV",
+      "en": "Epstein-Barr virus (HHV-4)",
+      "zh": "EB 病毒",
+      "stars": 3,
+      "genome": "**雙股DNA（dsDNA）**、具**套膜**，屬 **γ-herpesvirus（HHV-4）**；感染人類 **B 淋巴球**（受體 CD21／CR2）並可使其永生化，於淋巴細胞潛伏。",
+      "transmission": "**唾液**（共食、接吻，俗稱 kissing disease）；感染極**普遍**（成人抗體陽性率 >90%）。",
+      "disease": "**傳染性單核球增多症**（發燒、喉嚨痛、淋巴結腫、異型淋巴球）；與**鼻咽癌（NPC）、Burkitt 淋巴瘤、Hodgkin 病**等腫瘤相關。",
+      "lab": "血清學看**新抗原**：VCA、EA、EBNA（IgM/IgG 組合判斷急性/既往）；嗜異性抗體（Monospot）；**鼻咽癌以血液 EBV DNA viral load 追蹤嚴重度最佳**。",
+      "treatment": "無專一抗病毒藥（支持療法）；**尚無疫苗**。",
+      "interpret": "EBV 新抗原僅 VCA、EA、EBNA（NA）等；『Cytoplasmic antigen（CA）』並非 EBV 抗原。NPC 嚴重度追蹤以血液 EBV DNA viral load 最佳。",
+      "hot": [
+        "EBV 感染 **B 淋巴球（CD21 受體）**，致傳染性單核球增多症",
+        "相關腫瘤：**鼻咽癌、Burkitt 淋巴瘤、Hodgkin 病**（Kaposi 肉瘤是 HHV-8，非 EBV）",
+        "**鼻咽癌以血液 EBV DNA viral load** 追蹤嚴重度最佳；新抗原為 VCA/EA/EBNA"
+      ],
+      "qa": [
+        ["110年第一次 第24題", "EBV 感染 B 淋巴球會表現新抗原 VCA、EA、EBNA（NA）；選項 A『Cytoplasmic antigen（CA）』並非 EBV 新抗原（除外者）"],
+        ["110年第一次 第68題", "EBV 相關疾病含鼻咽癌、傳染性單核球增多症、Hodgkin 病；選項 D『Kaposi 肉瘤』與 EBV 無關（為 HHV-8 所致）"],
+        ["110年第一次 第47題", "鼻咽癌（NPC）臨床疾病嚴重度相關性最佳者為血液 EBV DNA viral load（答案 C）"],
+        ["113年第一次 第42題", "EBV 可致 Burkitt 淋巴瘤與鼻咽癌、經共食/接吻傳染、症狀有發燒喉嚨痛淋巴結腫；選項 A『感染過 EB 病毒的人非常少』為錯誤敘述（EBV 感染極普遍）"]
+      ]
+    },
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "HHV-6／7／8",
+      "en": "Human herpesviruses 6, 7 & 8",
+      "zh": "人類疱疹病毒第六／七／八型",
+      "stars": 2,
+      "genome": "皆為**套膜 dsDNA** 疱疹病毒。HHV-6、HHV-7 屬 **β 亞科**（感染 T 淋巴球）；HHV-8（KSHV）屬 **γ 亞科**。",
+      "transmission": "HHV-6/7 經**唾液**、幼兒期普遍感染；HHV-8 經**性行為、唾液、器官移植**。",
+      "disease": "**HHV-6**（及 HHV-7）致**嬰兒玫瑰疹（roseola infantum／第六病、exanthem subitum）**；**HHV-8** 為 **Kaposi 肉瘤**及原發性滲出液淋巴瘤致病因子。",
+      "lab": "臨床多以 PCR／血清學；HHV-8 於 Kaposi 病灶組織可測。",
+      "treatment": "多為支持療法；HHV-8 相關腫瘤處理免疫抑制與抗反轉錄病毒（AIDS 相關）。無疫苗。",
+      "hot": [
+        "**HHV-6＝嬰兒玫瑰疹（第六病）**，非泌尿道感染",
+        "**HHV-8＝Kaposi 肉瘤**致病因子（AIDS 相關腫瘤）",
+        "致腫瘤病毒群：EBV、HHV-8、HBV/HCV、HPV、HTLV-1（登革病毒不致癌）"
+      ],
+      "qa": [
+        ["113年第二次 第50題", "病毒感染與檢體/疾病配對：選項 C『尿道（urinary tract）／HHV-6』最不適當（HHV-6 造成嬰兒玫瑰疹/第六病，非尿道感染）"],
+        ["109年第一次 第77題", "EBV、HHV-8、HCV 均與腫瘤形成相關；選項 B『dengue virus』通常與癌症形成無關"]
       ]
     }
   ]

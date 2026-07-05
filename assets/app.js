@@ -44,6 +44,7 @@
     const card=document.createElement('article');
     card.className='card'; card.id=encodeURIComponent(d.name); card.dataset.stars=d.stars||0;
     const fields=
+      strField('📖 原理／方法', d.principle)+
       strField('🧬 基因體／構造', d.genome)+
       strField('🦟 傳播途徑', d.transmission)+
       strField('🤒 致病與臨床', d.disease)+

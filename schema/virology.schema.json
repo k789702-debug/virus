@@ -24,7 +24,8 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["h1","name","en","zh","stars","genome","transmission","disease","lab","hot","qa"],
+        "comment": "通用必填見下 required；病毒卡另必填 genome/transmission/disease/lab/treatment，總論／其他卡另必填 principle（由 validate_virology.js 依 h1 前綴條件強制）。",
+        "required": ["h1","name","en","zh","stars","hot","qa"],
         "additionalProperties": false,
         "properties": {
           "h1": { "type": "string" },
@@ -32,6 +33,7 @@
           "en": { "type": "string" },
           "zh": { "type": "string" },
           "stars": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "principle": { "type": "string" },
           "genome": { "type": "string" },
           "transmission": { "type": "string" },
           "disease": { "type": "string" },
