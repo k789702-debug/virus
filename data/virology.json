@@ -413,6 +413,87 @@
         ["113年第二次 第72題", "RSV 屬肺病毒科、可於 HEp-2 生長、F 蛋白可製疫苗；選項 B『單股正向 RNA』為錯誤（RSV 為負鏈 −ssRNA）"],
         ["113年第一次 第80題", "呼吸道融合病毒（RSV）感染可用 Ribavirin 治療（答案 D）"]
       ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 反轉錄病毒科（Retroviridae）",
+      "name": "反轉錄病毒科總覽",
+      "en": "Retroviridae (overview)",
+      "zh": "反轉錄病毒科總覽",
+      "stars": 2,
+      "genome": "**兩條相同的單股正鏈RNA（+ssRNA, diploid）**、具**套膜**；帶 **反轉錄酶（reverse transcriptase）、嵌入酶（integrase）、蛋白酶（protease）**（gag-pol-env）。基因組雖為 +RNA 但**不能直接當 mRNA 轉譯**，須先反轉錄成 dsDNA、由 integrase 嵌入宿主染色體形成 **provirus**；複製需**細胞轉錄機制**與**細胞 tRNA 作為引子**。人類病原含 HIV-1/2 與 HTLV-1/2。",
+      "transmission": "性行為、血液、垂直（母嬰）。",
+      "disease": "HIV → AIDS；HTLV-1 → 成人 T 細胞白血病／淋巴瘤（ATL）。**內生性反轉錄病毒**佔人類基因組約 8%（多不活躍，胎盤 syncytin 為其產物）。",
+      "lab": "血清抗體、p24 抗原、核酸（RT-PCR）。",
+      "treatment": "HIV 以雞尾酒療法（HAART）；HTLV 無專一抗病毒藥。",
+      "hot": [
+        "反轉錄病毒＝**兩條 +ssRNA、RT/integrase/protease、形成 provirus**",
+        "基因組**不直接當 mRNA**（需先反轉錄）；複製需細胞 tRNA 引子",
+        "**內生性反轉錄病毒佔基因組約 8%**、產生胎盤 syncytin"
+      ],
+      "qa": [
+        ["110年第一次 第76題", "人類反轉錄病毒具兩套基因體、需細胞轉錄機制與 tRNA 協助複製；選項 D『基因組可直接當 mRNA 來轉譯病毒蛋白』為錯誤（須先反轉錄成 DNA 整合）"],
+        ["110年第一次 第73題", "內生性反轉錄病毒形成 provirus 佔基因組約 8%、胎盤可活化產生 syncytin；選項 C『基因活性強、複製快、產生大量病毒外殼蛋白』為錯誤敘述"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 反轉錄病毒科（Retroviridae）",
+      "name": "HIV（病毒學）",
+      "en": "Human immunodeficiency virus (virology)",
+      "zh": "人類免疫缺乏病毒／病毒學",
+      "stars": 3,
+      "genome": "**兩條 +ssRNA**、具**套膜**，屬 **Lentivirus 屬**；表面 **gp120（結合 CD4 受體）／gp41（融合）**，核心 **p24**（HIV-2 套膜為 gp34／gp140）。有反轉錄酶、嵌入酶、蛋白酶；因有套膜故**對 ether 敏感**（非抗性）。",
+      "transmission": "性行為、血液、垂直（母嬰）。",
+      "disease": "感染 **CD4⁺ T 細胞**（及 macrophage、monocyte、少數 CD4⁺ B 細胞），**不感染無 CD4 的嗜鹼性白血球**；CD4 耗竭致 AIDS 與伺機感染。",
+      "lab": "見「HIV（診斷與監測）」卡。",
+      "treatment": "**雞尾酒療法（HAART）多標的**：反轉錄酶抑制劑（NRTI/NNRTI）、**蛋白酶抑制劑（抑制組裝與成熟）**、嵌入酶抑制劑、融合／入胞抑制劑；**HIV 無 RNA-dependent RNA polymerase**，故其非藥物標的。疫苗開發最大困難為**表面抗原極易突變**。",
+      "compare": [
+        ["藥物類別", "標的", "例"],
+        ["NRTI／NNRTI", "反轉錄酶", "AZT、3TC、ABC、efavirenz"],
+        ["蛋白酶抑制劑", "protease（組裝／成熟）", "atazanavir、ritonavir"],
+        ["嵌入酶抑制劑", "integrase", "raltegravir"],
+        ["融合／入胞抑制劑", "gp41／CCR5", "enfuvirtide、maraviroc"]
+      ],
+      "hot": [
+        "HIV＝**Lentivirus、兩條 +ssRNA**；表面 **gp120（結合 CD4）/gp41**、核心 p24",
+        "藥物標的：RT、integrase、protease、fusion；**無 RdRp**（非標的）",
+        "蛋白酶抑制劑作用於**組裝與成熟**；疫苗難產因**表面抗原易突變**"
+      ],
+      "qa": [
+        ["109年第一次 第67題", "HIV-1 屬於 Lentivirus 屬（答案 B）；其有套膜對 ether 敏感、可感染多種 CD4⁺ 細胞、帶兩條 RNA（非一條正股）"],
+        ["109年第一次 第21題", "HIV 感染表現 CD4 的巨噬細胞、單核球與少數 B 細胞；最不會感染的是不具 CD4 的嗜鹼性白血球（答案 B）"],
+        ["110年第一次 第22題", "表現在 HIV-1 表面（套膜）的蛋白為 gp41（答案 A）；p24 為核心蛋白"],
+        ["113年第二次 第16題", "HIV-2 的套膜蛋白為 gp34 與 gp140（答案 C ③⑥）；p24/p26 為核心蛋白"],
+        ["109年第一次 第44題", "抗 HIV-1 藥物標的包含 protease、integrase、reverse transcriptase；選項 D『RNA-dependent RNA polymerase』不是 HIV 的藥物標的（HIV 無 RdRp）"],
+        ["110年第一次 第44題", "3TC、AZT、ABC 皆為反轉錄酶抑制劑，Atazanavir（ATV）為蛋白酶抑制劑，作用機轉與其它三者不同（答案 C）"],
+        ["113年第二次 第54題", "抑制 HIV-1 最終組裝（assembly）與成熟（maturation）所需酵素的藥物為蛋白酶抑制劑（protease inhibitor）（答案 B）"],
+        ["113年第二次 第55題", "開發 HIV-1 疫苗最大困難為 HIV-1 表面抗原非常容易發生突變（答案 C）"]
+      ]
+    },
+    {
+      "h1": "RNA病毒 ‧ 反轉錄病毒科（Retroviridae）",
+      "name": "HIV（診斷與監測）",
+      "en": "HIV (diagnosis & monitoring)",
+      "zh": "HIV 實驗室診斷與監測",
+      "stars": 3,
+      "genome": "同 HIV 病毒學卡（兩條 +ssRNA、Lentivirus）。本卡聚焦**檢驗策略**。",
+      "transmission": "同 HIV；本卡聚焦診斷與治療監測。",
+      "disease": "急性期至 AIDS 之檢驗選擇；新生兒感染判定。",
+      "lab": "**篩檢：EIA（第四代加測 p24 抗原可縮短空窗期）→ Western blot 確認**（WB 為確認非篩檢，專一性高）；**新生兒以核酸 PCR 確診**（母體抗體干擾血清學）；急性期以 **p24 抗原或核酸** 早期偵測。",
+      "interpret": "**治療（雞尾酒療法）成效以 HIV RNA viral load 監測**（bDNA、NASBA、real-time RT-PCR 皆可；抗體法如 microsphere immunoassay 不能追蹤療效）；viral load **不適合用來區別 HIV-1 與 HIV-2**；CD4⁺ T 細胞**<200/µL** 才明顯易伺機感染（非 <500）。",
+      "treatment": "監測 viral load 與 CD4 數調整 HAART。",
+      "hot": [
+        "**EIA 篩檢 → Western blot 確認**；第四代加測 **p24 抗原**縮短空窗期",
+        "**治療監測用 HIV RNA viral load**（抗體法不能追蹤療效）；新生兒用 PCR",
+        "viral load 不用於區分 HIV-1/2；CD4**<200** 才明顯易伺機感染"
+      ],
+      "qa": [
+        ["110年第一次 第43題", "HIV-1：p24/核酸為初期診斷、RNA 病毒量判療效、PCR 確診新生兒；選項 C『CD4⁺ T <500/mm³ 較易伺機感染』為錯誤（一般以 <200 為界）"],
+        ["110年第一次 第46題", "監控 HIV-1 抗病毒藥物治療效果最適用者為 HIV-1 viral load（答案 B）"],
+        ["113年第一次 第48題", "相較第三代，第四代 HIV-1 篩檢試劑增加 HIV p24 抗原檢測以縮短空窗期（答案 A）"],
+        ["113年第一次 第79題", "追蹤 HIV-1 雞尾酒療法成效用病毒量法（bDNA、NASBA、real-time RT-PCR）；選項 B『microsphere immunoassay（抗體法）』無法用來追蹤（答案 B）"],
+        ["113年第一次 第45題", "HIV viral load 可對 Group M 精確定量、允許 0.5 log 差異、低量時變異加大；選項 D『可當作區別 HIV-1 及 HIV-2 的方法』最不適當"],
+        ["113年第一次 第54題", "Western blot 專一性高、用於確認 HIV 或 HCV 之 EIA 結果；選項 A『比 EIA 更常用來當篩檢試驗』為錯誤（WB 為確認試驗）"]
+      ]
     }
   ]
 }
