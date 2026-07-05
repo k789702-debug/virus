@@ -1,0 +1,12 @@
+{
+  "name": "clinical-virology-exam-outline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "醫事檢驗師「臨床病毒學」（臨床血清免疫學與臨床病毒學之病毒部分）：依病毒科分群的資料驅動複習大綱，掛真實國考題。",
+  "scripts": {
+    "validate": "node scripts/validate_virology.js",
+    "validate:strict": "node scripts/validate_virology.js --strict-links",
+    "verify-qa": "node scripts/verify-qa.mjs",
+    "codex-brief": "node scripts/codex-brief.mjs"
+  }
+}

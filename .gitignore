@@ -1,0 +1,18 @@
+# 依賴（可由 package.json 還原，不進版控）
+node_modules/
+
+# 雜項
+*.log
+.DS_Store
+
+# 工具暫存（Codex / 本機預覽 / 進度追蹤）
+.codex/
+.claude/
+.superpowers/
+
+# 本機挖題 CLI（若有，未追蹤）
+query.mjs
+
+# skills CLI 安裝目錄（vercel-labs/skills）
+.agents/
+skills-lock.json

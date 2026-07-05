@@ -1,0 +1,12 @@
+# 文字檔一律以 LF 正規化入庫（避免 Windows 協作者的 CRLF 雜訊與假 diff）
+* text=auto eol=lf
+
+# 二進位：不做行尾轉換
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'">
+<meta name="referrer" content="no-referrer">
+<title>臨床病毒學大綱｜醫事檢驗師國考</title>
+<link rel="stylesheet" href="assets/cards.css?v=20260704.1">
+<link rel="stylesheet" href="assets/enhance.css?v=20260704.1">
+</head>
+<body>
+<header class="top">
+  <div class="title-row">
+    <span class="th-badge">病毒</span>
+    <div>
+      <h1>臨床病毒學大綱</h1>
+      <div class="sub" id="sub">科目：臨床血清免疫學與臨床病毒學（病毒部分）</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html" class="cur">病毒</a>
+    </nav>
+  </div>
+  <div class="controls">
+    <input id="search" type="text" placeholder="🔍 即時搜尋：病毒、科別、基因體、套膜、傳播、包涵體、疫苗、抗病毒藥、考點…（例 HBV、包涵體、登革、reverse transcriptase）">
+    <button type="button" class="btn-mini" id="expandAll">全部展開</button>
+    <button type="button" class="btn-mini" id="collapseAll">全部收合</button>
+  </div>
+  <div class="legend">⭐⭐⭐ 極高頻 ⭐⭐ 高頻 ⭐ 常見。依病毒科（DNA→RNA）分群，每張卡掛真實國考題。資料維護：編輯 <code>data/virology.json</code>。</div>
+</header>
+<main>
+  <div id="cards"></div>
+  <div class="nohit" id="nohit">查無符合條件的項目，請調整搜尋。</div>
+</main>
+<script src="assets/app.js?v=20260704.1"></script>
+<script src="assets/enhance.js?v=20260704.1"></script>
+</body>
+</html>

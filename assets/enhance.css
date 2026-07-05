@@ -1,0 +1,14 @@
+/* 閱讀性增強樣式（tech/clinical/microscopy 共用，疊加於 cards.css 之上）
+   Darkfield Fluorescence：搜尋命中＝螢光綠標記；「只看極高頻」＝UV 燈按鈕。 */
+mark.hl{background:var(--glow);color:#08130D;border-radius:3px;padding:0 2px;font-weight:600}
+.hf-btn{font-family:var(--mono);cursor:pointer;border:1px solid var(--glow-dim);background:rgba(70,229,160,.06);
+  color:var(--glow);border-radius:9px;padding:8px 12px;font-size:.78rem;white-space:nowrap}
+.hf-btn:hover{background:rgba(70,229,160,.12)}
+.hf-btn.on{background:var(--glow);color:var(--bg);border-color:var(--glow);font-weight:700;box-shadow:0 0 14px -2px var(--glow)}
+/* Enter / 跨連結捲動定位時，避開 sticky header 高度 */
+.card,.group{scroll-margin-top:150px}
+@media(max-width:640px){
+  header.top{position:static}
+  .legend{display:none}
+  .card,.group{scroll-margin-top:12px}
+}

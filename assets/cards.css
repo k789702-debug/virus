@@ -1,0 +1,83 @@
+/* Darkfield Fluorescence — 醫檢國考複習介面
+   主題：分子凝膠螢光/UV 透照 ＋ 鏡檢暗視野。訊號色系統：
+   綠(--glow)=頻率/命中/發亮訊號｜藍(--acc)=導覽/互連｜琥珀(--amber)=高頻考點/警示。
+   signature：卡片左緣「螢光帶」隨 stars 亮度，★★★ 微微發光。 */
+:root{
+  --bg:#0E1116; --card:#161A22; --panel:#12151C;
+  --ink:#E7ECF3; --mut:#8B95A7; --line:#262C38;
+  --glow:#46E5A0; --glow-dim:#2F9D76; --acc:#6BB8FF; --amber:#F2B45A; --hot:#F2B45A;
+  --mono:ui-monospace,"Cascadia Code",Consolas,"SF Mono",Menlo,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Segoe UI","Microsoft JhengHei",system-ui,sans-serif;
+  line-height:1.62;-webkit-font-smoothing:antialiased}
+
+.top{position:sticky;top:0;z-index:5;background:rgba(14,17,22,.82);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);padding:12px 18px}
+.title-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.th-badge{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--glow);border:1px solid var(--glow-dim);border-radius:6px;padding:3px 9px;background:rgba(70,229,160,.06)}
+h1{font-size:1.22rem;margin:0;font-weight:800;letter-spacing:.01em}
+.sub{color:var(--mut);font-size:.82rem}
+.nav{margin-left:auto;display:flex;gap:6px}
+.nav a{font-family:var(--mono);font-size:.8rem;color:var(--mut);text-decoration:none;padding:5px 11px;border-radius:8px;border:1px solid var(--line)}
+.nav a:hover{color:var(--ink);border-color:var(--mut)}
+.nav a.cur{color:var(--bg);background:var(--glow);border-color:var(--glow);font-weight:700}
+.controls{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+#search{flex:1;min-width:240px;background:#0B0E13;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:9px 13px;font-size:.95rem}
+#search:focus{outline:none;border-color:var(--glow-dim);box-shadow:0 0 0 3px rgba(70,229,160,.12)}
+#search::placeholder{color:#5C6678}
+.btn-mini{font-family:var(--mono);font-size:.78rem;background:#0B0E13;border:1px solid var(--line);color:var(--mut);border-radius:9px;padding:8px 12px;cursor:pointer}
+.btn-mini:hover{color:var(--ink);border-color:var(--mut)}
+.legend{font-family:var(--mono);color:var(--mut);font-size:.72rem;letter-spacing:.03em;margin-top:9px}
+
+main{max-width:1020px;margin:0 auto;padding:18px}
+.group{margin:20px 0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:linear-gradient(180deg,#12151C,#0F131A)}
+.group-head{display:flex;align-items:center;gap:10px;padding:12px 16px;cursor:pointer;font-weight:800;font-size:.98rem;border-left:3px solid var(--glow-dim);user-select:none}
+.group-head .arrow{color:var(--mut);font-size:.7rem;transition:transform .15s}
+.group.collapsed .group-head .arrow{transform:rotate(-90deg)}
+.group.collapsed .group-body{display:none}
+.flow{padding:11px 16px;border-bottom:1px solid var(--line);color:var(--mut);background:rgba(107,184,255,.03)}
+.flow h3{margin:0 0 4px;font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;color:var(--acc);font-weight:700}
+.flow .ln{font-size:.86rem}
+
+.cards{padding:14px;display:grid;gap:14px}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--line);border-radius:12px;overflow:hidden;transition:border-color .15s}
+.card[data-stars="1"]{border-left-color:rgba(70,229,160,.30)}
+.card[data-stars="2"]{border-left-color:rgba(70,229,160,.58)}
+.card[data-stars="3"]{border-left-color:var(--glow);box-shadow:-7px 0 20px -11px var(--glow)}
+.card-head{display:flex;align-items:center;gap:10px;padding:12px 15px;cursor:pointer;flex-wrap:wrap;user-select:none}
+.card-head .abbr{font-family:var(--mono);font-weight:700;font-size:1.02rem;letter-spacing:.01em}
+.card-head .en{color:var(--mut);font-size:.82rem}
+.card-head .zh{color:var(--ink);font-size:.95rem}
+.card-head .stars{margin-left:auto;color:var(--glow);font-size:.82rem;letter-spacing:.06em;filter:drop-shadow(0 0 4px rgba(70,229,160,.4))}
+.card-head .arrow{color:var(--mut);font-size:.7rem}
+.card.collapsed .card-body{display:none}
+.card-body{padding:2px 15px 15px;border-top:1px solid var(--line)}
+.field{margin-top:14px}
+.field .k{display:inline-block;font-family:var(--mono);font-weight:700;color:var(--acc);font-size:.74rem;letter-spacing:.08em;margin-bottom:5px;padding-left:8px;border-left:2px solid rgba(107,184,255,.5)}
+.field .v{font-size:.95rem}
+
+table{border-collapse:collapse;width:100%;font-size:.86rem;margin-top:2px}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:#12151C;color:var(--acc);font-weight:700}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-scroll>table{width:auto;min-width:100%}
+.card-head:focus-visible,.group-head:focus-visible{outline:2px solid var(--glow);outline-offset:-2px}
+
+.tags a,.xref{color:var(--acc);text-decoration:none;border-bottom:1px dashed rgba(107,184,255,.5)}
+.tags a:hover,.xref:hover{border-bottom-style:solid}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pc .pros{color:#8EE6A8}.pc .cons{color:#FF9A9A}
+.hot{margin-top:15px;background:linear-gradient(180deg,rgba(242,180,90,.08),rgba(242,180,90,.03));border:1px solid rgba(242,180,90,.22);border-radius:10px;padding:9px 13px}
+.hot .k{color:var(--amber);font-weight:700;font-size:.8rem;letter-spacing:.04em}
+.hot li{font-size:.9rem;margin:2px 0}
+table.qa{font-size:.82rem}
+table.qa td.yr{font-family:var(--mono);white-space:nowrap;color:var(--mut);font-variant-numeric:tabular-nums}
+b{color:#FFFFFF;font-weight:700}
+.nohit{display:none;color:var(--mut);text-align:center;padding:30px;font-family:var(--mono)}
+.err{color:#FF9A9A;padding:20px;border:1px solid #3A1212;border-radius:10px}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+@media(max-width:640px){.card-head .en{order:5;width:100%}}

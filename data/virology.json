@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "subject": "臨床血清免疫學與臨床病毒學（病毒部分）",
+    "version": "0.1.0",
+    "updated": "2026-07-04",
+    "source": "考選部 醫事檢驗師國考「臨床血清免疫學與臨床病毒學」歷屆試題（moex-exam）",
+    "groups": [
+      "總論 ‧ 病毒構造與分類",
+      "總論 ‧ 病毒實驗室診斷",
+      "總論 ‧ 抗病毒藥物與疫苗",
+      "DNA病毒 ‧ 腺病毒科（Adenoviridae）",
+      "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "DNA病毒 ‧ 痘病毒科（Poxviridae）",
+      "DNA病毒 ‧ 細小病毒科（Parvoviridae）",
+      "DNA病毒 ‧ 乳突瘤／多瘤病毒科（Papilloma／Polyomaviridae）",
+      "肝炎病毒 ‧ A–E 型（跨科綜覽）",
+      "RNA病毒 ‧ 小RNA病毒科（Picornaviridae）",
+      "RNA病毒 ‧ 黃病毒科（Flaviviridae）",
+      "RNA病毒 ‧ 披膜病毒科（Togaviridae）",
+      "RNA病毒 ‧ 正黏液病毒科（Orthomyxoviridae）",
+      "RNA病毒 ‧ 副黏液／肺病毒科（Paramyxo／Pneumoviridae）",
+      "RNA病毒 ‧ 冠狀病毒科（Coronaviridae）",
+      "RNA病毒 ‧ 呼腸孤病毒科（Reoviridae）",
+      "RNA病毒 ‧ 布尼亞病毒目（Bunyavirales）",
+      "RNA病毒 ‧ 絲狀病毒科（Filoviridae）",
+      "RNA病毒 ‧ 桿狀病毒科（Rhabdoviridae／狂犬）",
+      "RNA病毒 ‧ 反轉錄病毒科（Retroviridae）",
+      "RNA病毒 ‧ 其他（Astrovirus／Calicivirus 等）",
+      "其他 ‧ Prion 普利子"
+    ]
+  },
+  "flows": {},
+  "virology": [
+    {
+      "h1": "DNA病毒 ‧ 疹病毒科（Herpesviridae）",
+      "name": "HSV-1／HSV-2",
+      "en": "Herpes simplex virus types 1 & 2",
+      "zh": "單純疱疹病毒第一／二型",
+      "stars": 3,
+      "genome": "**線狀雙股DNA（dsDNA）**、二十面體核殼、具**套膜**；基因體帶 direct／inverted repeat 序列。屬 **α-herpesvirus**，在**細胞核**內複製，並於神經節（三叉／薦神經節）建立**潛伏感染**。",
+      "transmission": "**接觸傳染**（唾液、皮膚黏膜、生殖道分泌物）；HSV-1 多口唇、HSV-2 多生殖器，部位可交叉。",
+      "disease": "齒齦口腔炎、口唇疱疹、生殖器疱疹、疱疹性角膜結膜炎、新生兒疱疹；HSV-1 為散發性**病毒性腦炎**最常見病原（好侵犯顳葉）。",
+      "lab": "感染細胞出現**多核巨細胞**與 **Cowdry A 型核內包涵體**（Tzanck 抹片）；確診以 **PCR**（CSF 腦炎、水泡液）最敏感，亦可病毒培養／DFA。**注意：Owl's eye 貓頭鷹眼包涵體屬 CMV，非 HSV**。",
+      "treatment": "**Acyclovir**（需經病毒 **thymidine kinase** 磷酸化活化，抑制病毒 DNA polymerase）及其衍生物；**臨床尚無疫苗**。",
+      "pitfall": "①Owl's eye＝CMV，HSV＝Cowdry A／多核巨細胞。②acyclovir 需病毒 TK 活化，抗藥常源自 TK 突變。③「HSV 已有疫苗」為常見錯誤敘述。",
+      "compare": [
+        ["特徵", "HSV", "CMV"],
+        ["核內包涵體", "Cowdry A 型", "Owl's eye（貓頭鷹眼）"],
+        ["特徵細胞", "多核巨細胞（syncytia）", "巨大細胞＋核內外包涵體"],
+        ["首選藥", "Acyclovir", "Ganciclovir"]
+      ],
+      "hot": [
+        "**Cowdry A 型核內包涵體＋多核巨細胞**為 HSV 鏡下特徵（與 CMV 的 **Owl's eye** 區分）",
+        "**Acyclovir 需病毒 thymidine kinase 活化**，作用機轉為抑制病毒 DNA polymerase",
+        "HSV **尚無疫苗**；HSV-1 為散發性病毒性腦炎最常見病原"
+      ],
+      "qa": [
+        ["113年第一次 第68題", "單純疱疹病毒：主要接觸傳染、感染造成多核巨細胞、HSV-1/2 治療藥物相同；選項 C『感染細胞內出現 Owl's eye 包涵體』為錯誤敘述（Owl's eye 為 CMV）"],
+        ["113年第一次 第59題", "HSV-1 為 alphaherpesvirus、病毒 DNA polymerase 為抗病毒藥標的、可致口唇或生殖器疱疹；選項 D『已有減毒疫苗可供臨床使用』為錯誤敘述（HSV 尚無疫苗）"]
+      ]
+    }
+  ]
+}

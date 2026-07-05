@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "臨床病毒學模組 資料結構",
+  "type": "object",
+  "required": ["meta", "virology"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["subject", "groups"],
+      "properties": {
+        "subject": { "type": "string" },
+        "version": { "type": "string" },
+        "updated": { "type": "string" },
+        "source": { "type": "string" },
+        "groups": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      }
+    },
+    "flows": {
+      "type": "object",
+      "additionalProperties": { "type": "array", "items": { "type": "string" } }
+    },
+    "virology": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["h1","name","en","zh","stars","genome","transmission","disease","lab","hot","qa"],
+        "additionalProperties": false,
+        "properties": {
+          "h1": { "type": "string" },
+          "name": { "type": "string" },
+          "en": { "type": "string" },
+          "zh": { "type": "string" },
+          "stars": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "genome": { "type": "string" },
+          "transmission": { "type": "string" },
+          "disease": { "type": "string" },
+          "lab": { "type": "string" },
+          "interpret": { "type": "string" },
+          "treatment": { "type": "string" },
+          "pitfall": { "type": "string" },
+          "compare": {
+            "type": "array",
+            "minItems": 2,
+            "items": { "type": "array", "items": { "type": "string" }, "minItems": 2 }
+          },
+          "hot": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "qa": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 }
+          }
+        }
+      }
+    }
+  }
+}

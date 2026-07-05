@@ -1,0 +1,36 @@
+name: Validate
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - 'assets/**'
+      - '*.html'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - 'assets/**'
+      - '*.html'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 前端與腳本語法檢查（node --check）
+        run: |
+          set -e
+          for f in scripts/*.js scripts/*.mjs assets/*.js; do
+            echo "node --check $f"
+            node --check "$f"
+          done
+      - name: 驗證病毒資料（strict links）
+        run: node scripts/validate_virology.js --strict-links
