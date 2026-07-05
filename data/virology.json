@@ -182,6 +182,107 @@
         ["113年第二次 第50題", "病毒感染與檢體/疾病配對：選項 C『尿道（urinary tract）／HHV-6』最不適當（HHV-6 造成嬰兒玫瑰疹/第六病，非尿道感染）"],
         ["109年第一次 第77題", "EBV、HHV-8、HCV 均與腫瘤形成相關；選項 B『dengue virus』通常與癌症形成無關"]
       ]
+    },
+    {
+      "h1": "肝炎病毒 ‧ A–E 型（跨科綜覽）",
+      "name": "HBV",
+      "en": "Hepatitis B virus (Hepadnaviridae)",
+      "zh": "B 型肝炎病毒",
+      "stars": 3,
+      "genome": "**部分雙股環狀DNA（partially dsDNA, relaxed circular）**、具**套膜（HBsAg）**，屬 **Hepadnaviridae**；是唯一以 DNA 為基因體卻經 **RNA 中間物反轉錄（reverse transcriptase）** 複製的人類肝炎病毒。完整病毒顆粒＝**Dane particle**。",
+      "transmission": "**血液、體液、性行為、垂直（母嬰周產期）**。",
+      "disease": "急性／慢性 B 型肝炎、帶原者；長期可致肝硬化、**肝細胞癌（HCC）**。",
+      "lab": "血清標記 **HBsAg／anti-HBs／HBeAg／anti-HBe／anti-HBc（IgM/IgG）**；**HBV DNA 定量**評估複製與治療反應；新生兒感染以 **PCR** 最佳。",
+      "treatment": "核苷（酸）類似物（entecavir、tenofovir）、干擾素；**疫苗為基因重組 HBsAg 蛋白次單位／VLP（非活病毒）**。",
+      "interpret": "**anti-HBc＋anti-HBs 皆陽性且 HBsAg 陰性**＝自然感染後恢復（打疫苗只會 anti-HBs 陽性）；**HBeAg 陽性**＝高複製高傳染力；**Pre-Core 突變**→ HBeAg 陰性但仍複製（anti-HBe 陽轉而 HBV DNA／ALT 仍波動）。",
+      "compare": [
+        ["", "HAV", "HBV", "HCV", "HDV", "HEV"],
+        ["科／基因體", "小RNA／+ssRNA", "Hepadna／dsDNA", "黃病毒／+ssRNA", "缺陷型／環狀RNA", "Hepe／+ssRNA"],
+        ["套膜", "無", "有（HBsAg）", "有", "借 HBsAg", "無"],
+        ["傳播", "糞口", "血液／體液／垂直", "血液", "血液（需 HBV）", "糞口"],
+        ["慢性化", "否", "可", "高比例", "加重 HBV", "否（孕婦重症）"],
+        ["疫苗", "有（去活化）", "有（次單位）", "無", "靠 HBV 疫苗", "無（部分地區有）"]
+      ],
+      "hot": [
+        "HBV＝**DNA 病毒但經反轉錄複製**；Dane particle 為完整病毒顆粒",
+        "**anti-HBc＋anti-HBs 陽性、HBsAg 陰性＝自然感染恢復**（疫苗只有 anti-HBs）",
+        "**Pre-Core 突變**→ HBeAg 陰性仍複製；疫苗為 **HBsAg 蛋白次單位**"
+      ],
+      "qa": [
+        ["109年第一次 第55題", "HBsAg(+)、HBeAg(−) 之慢性 B 肝患者，評估疾病進展最佳指標為定量 HBV DNA（答案 B）"],
+        ["110年第一次 第64題", "同時測得 anti-HBc 與 anti-HBs 陽性（HBsAg 陰），最可能為 B 型肝炎自然感染後的免疫反應（答案 A；打疫苗僅 anti-HBs 陽性）"],
+        ["113年第二次 第59題", "治療中 HBV DNA/ALT 波動但 HBe 血清轉換呈陰性，最可能為 Pre-Core 蛋白突變（答案 B）"],
+        ["113年第一次 第67題", "HBe 抗原源自 pre-core/core（非 Gene S）、可分泌於血中；HBeAg 陽性代表活動性 B 型肝炎（答案 D）"],
+        ["113年第二次 第44題", "目前臨床使用的 B 型肝炎疫苗為蛋白次單位疫苗（recombinant HBsAg）（答案 B）"],
+        ["113年第二次 第65題", "診斷新生兒感染 B 型肝炎病毒最佳方式為 PCR（答案 B；母體抗體干擾血清學）"]
+      ]
+    },
+    {
+      "h1": "肝炎病毒 ‧ A–E 型（跨科綜覽）",
+      "name": "HCV",
+      "en": "Hepatitis C virus (Flaviviridae)",
+      "zh": "C 型肝炎病毒",
+      "stars": 3,
+      "genome": "**單股正鏈RNA（+ssRNA）**、具**套膜**，屬 **黃病毒科（Flaviviridae, Hepacivirus）**；高變異（quasispecies）故難製疫苗。",
+      "transmission": "以**血液**為主（輸血、共用針具），性行為與垂直傳染機率較低。",
+      "disease": "急性多無症狀，但**高比例（>50–80%）轉為慢性**，可致肝硬化與肝細胞癌。",
+      "lab": "anti-HCV 篩檢 →**HCV RNA（NAAT／核酸放大）確診**；HCV-RNA 為急性感染最早可測標誌；基因型指導治療。以 **PCR 偵測 HCV 需先反轉錄（RT-PCR）**（HBV 為 DNA 則不需）。",
+      "treatment": "舊療法**干擾素-α＋ribavirin**；現以**直接抗病毒藥（DAA）**可治癒；**目前無疫苗**。",
+      "hot": [
+        "HCV＝黃病毒科 **+ssRNA**；**高比例慢性化**、與 HCC 相關",
+        "**確診用 HCV RNA（NAAT）**；HCV-RNA 為最早標誌；偵測需 **RT-PCR**",
+        "**HCV 目前無疫苗**（高變異）；治療用干擾素+ribavirin／DAA"
+      ],
+      "qa": [
+        ["109年第一次 第23題", "急性 C 型肝炎最早可測得的標誌為 HCV-RNA（答案 B；早於 anti-HCV）"],
+        ["109年第一次 第78題", "HCV 多數感染會轉慢性、目前無疫苗、難以細胞培養；臨床可用干擾素-α 與 ribavirin 合併治療（答案 D 正確）"],
+        ["113年第一次 第41題", "HCV 可經血液傳染、可致癌、易造成慢性感染；選項 D『已有保護性疫苗』為錯誤（HCV 尚無疫苗）"],
+        ["113年第一次 第72題", "C 型肝炎病毒實驗室診斷最佳確診標準為核酸分子放大（NAAT）方法（答案 D）"],
+        ["110年第一次 第61題", "以 PCR 檢測時必須先反轉錄者為 Hepatitis C virus（RNA 病毒，答案 B）；HBV、adenovirus、B19 為 DNA 不需反轉錄"]
+      ]
+    },
+    {
+      "h1": "肝炎病毒 ‧ A–E 型（跨科綜覽）",
+      "name": "HDV",
+      "en": "Hepatitis D virus (delta agent)",
+      "zh": "D 型肝炎病毒",
+      "stars": 2,
+      "genome": "**缺陷型（defective）單股環狀RNA**、為最小的人類病毒；**必須依賴 HBV 的 HBsAg** 作為外套膜才能組裝與感染細胞（delta agent）。",
+      "transmission": "血液／體液；須與 HBV **同時感染（coinfection）**或於帶原者上**重疊感染（superinfection）**。",
+      "disease": "加重 B 型肝炎病情，提高**猛爆性肝炎**與肝硬化風險。",
+      "lab": "血清指標為 **HDAg、anti-HDV IgM、HDV RNA**；因 HDV 為 RNA 病毒，**無『HDV DNA』**。",
+      "treatment": "以控制 HBV（干擾素）為主；**接種 HBV 疫苗即可預防 HDV**。",
+      "hot": [
+        "**HDV 依賴 HBV 的 HBsAg** 才能感染；打 HBV 疫苗即可預防",
+        "HDV 為**環狀 RNA**，指標為 HDAg／anti-HDV IgM／**HDV RNA**（無 HDV DNA）",
+        "coinfection 與 superinfection 的區別；加重猛爆性肝炎"
+      ],
+      "qa": [
+        ["109年第一次 第56題", "D 型肝炎血清偵測指標包括 HDAg、anti-HD IgM 及 HDV RNA（答案 A 正確）；其基因體為環狀 RNA、常與 HBV（非 HCV）共感染"],
+        ["109年第一次 第57題", "D 型肝炎病毒必須依賴 HBsAg 方可感染細胞（答案 A）"],
+        ["110年第一次 第42題", "急性 HDV 感染者血清中無法偵測到 HDV DNA（答案 B；HDV 為 RNA 病毒，測 HDAg/anti-HDV IgM/HDV RNA）"]
+      ]
+    },
+    {
+      "h1": "肝炎病毒 ‧ A–E 型（跨科綜覽）",
+      "name": "HAV",
+      "en": "Hepatitis A virus (Picornaviridae)",
+      "zh": "A 型肝炎病毒",
+      "stars": 2,
+      "genome": "**單股正鏈RNA（+ssRNA）**、**無套膜**、二十面體，屬 **小RNA病毒科（Picornaviridae, Hepatovirus）**；耐酸、耐熱。",
+      "transmission": "**糞口傳播**（受汙染食物或水），常見於衛生不良地區與群聚。",
+      "disease": "急性肝炎，**不轉為慢性、不帶原**；兒童多無症狀，成人症狀較明顯，鮮少猛爆性。",
+      "lab": "血清 **anti-HAV IgM（急性感染）／IgG（既往感染或免疫）**。",
+      "treatment": "支持療法；**有去活化（inactivated）疫苗**可預防（非活減毒）。",
+      "hot": [
+        "HAV＝小RNA科 **無套膜 +ssRNA**、**糞口傳播**、**不慢性化**",
+        "**HAV 有去活化疫苗**（inactivated），非活減毒疫苗",
+        "急性以 anti-HAV IgM 診斷"
+      ],
+      "qa": [
+        ["113年第二次 第69題", "小RNA病毒科中小兒麻痺、腸病毒 A71、A 型肝炎病毒均有疫苗；唯克沙奇病毒 B3 無疫苗（答案 D）— 說明 HAV 有疫苗"],
+        ["113年第一次 第51題", "人用疫苗中僅輪狀病毒為活性減毒疫苗（答案 D）；A 型肝炎、B 型肝炎、狂犬皆非活減毒（HAV 為去活化疫苗）"]
+      ]
     }
   ]
 }
